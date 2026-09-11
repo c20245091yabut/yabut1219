@@ -48,4 +48,7 @@ console.log(contact);
 const project = document.querySelector(".services"); // Or ".project" if you updated your HTML class
 console.log(project);
 
-   
+// Text Content 
+heading.textContent = "My Portfolio";
+contactHeading.textContent = "Let's Connect!";
+projectHeading.textContent = "My Projects";
