@@ -63,3 +63,26 @@ projectHeading.style.color = "purple";
 servicesHeading.style.color = "purple"; 
 
 
+// Event Listeners
+heading.addEventListener("click", function() {
+    heading.style.color = "red";
+    });
+
+    const toggleButton = document.querySelector('#switch');
+const body = document.querySelector('body');
+let isOff = false;
+
+toggleButton.addEventListener("click", function () {
+    isOff = !isOff;
+
+    if (isOff) {
+        body.style.backgroundColor = "black";
+        body.style.color  = "black";
+        
+    } else { 
+         body.style.backgroundColor = "white";
+        body.style.color  = "white";
+        
+        
+    }
+});
