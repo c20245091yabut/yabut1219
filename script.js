@@ -38,17 +38,28 @@ function mdas (num1,num2) {
    console.log (mdas(5,3));
 
 
-   //query
 
-const  heading =document.querySelector ("h1");
-console.log(heading);
-const contact = document.querySelector(".contact");
-console.log(contact);
 
-const project = document.querySelector(".services"); // Or ".project" if you updated your HTML class
-console.log(project);
+// Query Selector
 
-// Text Content 
+
+const heading = document.querySelector("h1");
+const contactHeading = document.querySelector("#contact h2");
+const projectHeading = document.querySelector("#projects h2");   
+const servicesHeading = document.querySelector("#services h2"); 
+
+
 heading.textContent = "My Portfolio";
-contactHeading.textContent = "Let's Connect!";
-projectHeading.textContent = "My Projects";
+contactHeading.textContent = "Let's Connect";
+projectHeading.textContent = "Projects";
+servicesHeading.textContent = "Services";
+
+
+heading.style.color = "purple";
+heading.style.backgroundColor = "yellow";
+
+contactHeading.style.color = "purple";
+projectHeading.style.color = "purple";
+servicesHeading.style.color = "purple"; 
+
+
