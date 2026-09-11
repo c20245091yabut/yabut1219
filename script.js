@@ -36,3 +36,16 @@ function mdas (num1,num2) {
     }
    
    console.log (mdas(5,3));
+
+
+   //query
+
+const  heading =document.querySelector ("h1");
+console.log(heading);
+const contact = document.querySelector(".contact");
+console.log(contact);
+
+const project = document.querySelector(".services"); // Or ".project" if you updated your HTML class
+console.log(project);
+
+   
