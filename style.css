@@ -39,7 +39,9 @@ main section {
 #projects {
     background-color: aqua;
 }
-
+#contact {
+    background-color: green;
+}
 form {
     display: flex;
     flex-direction: column;
