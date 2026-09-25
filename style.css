@@ -36,6 +36,9 @@ main section {
     border: 2px solid black;
     padding: 20px
 }
+#projects {
+    background-color: aqua;
+}
 
 form {
     display: flex;
