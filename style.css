@@ -39,7 +39,9 @@ main section {
 #projects {
     background-color: aqua;
 }
-
+#contact {
+    background-color: green;
+}
 form {
     display: flex;
     flex-direction: column;
@@ -108,7 +110,4 @@ padding: 12px 24;
 button:hover {
     background-color: red;
     color: black
-}
-#contacts {
-    background-color: green;
 }
